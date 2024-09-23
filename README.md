@@ -85,3 +85,26 @@ A demonstração de uso das ferramentas e tecnologias abordadas na capacitação
 - [Histórias de usuário](https://github.com/webacademyufac/sgcmdocs#histórias-de-usuário)
 - [Diagrama de Classes](https://github.com/webacademyufac/sgcmdocs#diagrama-de-classes)
 - [Diagrama Entidade Relacionamento](https://github.com/webacademyufac/sgcmdocs#diagrama-entidade-relacionamento)
+
+
+1. [INDIVIDUAL] Crie uma classe chamada GerenciadorAlunos. Dentro dessa classe, declare um ArrayList<String> chamado alunos.
+
+Implemente um método chamado adicionarAluno(String nome) que adiciona um nome de aluno à lista.
+Ao adicionar, o método deve verificar se o aluno já existe na lista.
+
+Crie um método chamado removerAluno(String nome) que remove o aluno da lista pelo nome. Caso o nome não seja encontrado, exiba uma mensagem apropriada.
+
+Implemente um método chamado atualizarAluno(String nomeAntigo, String nomeNovo) que busca o nome de um aluno na lista e o atualiza. Se o nome não for encontrado, exiba uma mensagem de erro.
+
+Crie um método chamado listarAlunos() que imprime todos os alunos armazenados na lista em ordem alfabética.
+
+Implemente um método chamado buscarAluno(String nome) que verifica se o aluno existe na lista. O método deve retornar uma mensagem dizendo se o aluno foi encontrado ou não.
+
+Adicione um método chamado obterQuantidadeDeAlunos() que retorna o número total de alunos na lista.
+
+Crie um método chamado limparLista() que remove todos os alunos da lista.
+
+Usando Orientação a Objetos, modifique o programa para que, além do nome, cada aluno tenha um número de matrícula e os todos os métodos anteriores continuem funcionando.
+
+Link de entrega: https://classroom.github.com/a/hazTxHsm
+Data: 25/09/2024 até 16h
