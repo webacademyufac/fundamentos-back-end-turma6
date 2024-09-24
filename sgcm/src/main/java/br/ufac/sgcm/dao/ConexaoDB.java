@@ -6,8 +6,8 @@ import java.sql.DriverManager;
 public class ConexaoDB {
     private String usuario = "root";
     private String senha = "root";
-    private String url = "jdbc:msyql://localhost/sgcm";
-    Connection con;
+    private String url = "jdbc:mysql://localhost/sgcm";
+    private Connection con;
 
     public Connection getConexao() {
         try {
