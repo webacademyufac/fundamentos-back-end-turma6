@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "sgcm/src"
+    ],
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "java.project.referencedLibraries": [],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
