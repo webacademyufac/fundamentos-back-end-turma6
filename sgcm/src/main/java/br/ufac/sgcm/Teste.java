@@ -1,13 +1,13 @@
-package main.java.br.ufac.sgcm;
+package br.ufac.sgcm;
 
 import java.sql.Connection;
 import java.util.List;
 
-import main.java.br.ufac.sgcm.dao.ConexaoDB;
-import main.java.br.ufac.sgcm.dao.EspecialidadeDao;
-import main.java.br.ufac.sgcm.model.Especialidade;
-import main.java.br.ufac.sgcm.model.Profissional;
-import main.java.br.ufac.sgcm.model.Unidade;
+import br.ufac.sgcm.dao.ConexaoDB;
+import br.ufac.sgcm.dao.EspecialidadeDao;
+import br.ufac.sgcm.model.Especialidade;
+import br.ufac.sgcm.model.Profissional;
+import br.ufac.sgcm.model.Unidade;
 
 public class Teste {
     public static void main(String[] args) {

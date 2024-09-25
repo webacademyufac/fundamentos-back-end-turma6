@@ -1,4 +1,4 @@
-package main.java.br.ufac.sgcm.dao;
+package br.ufac.sgcm.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

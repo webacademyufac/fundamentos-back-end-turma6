@@ -1,4 +1,4 @@
-package main.java.br.ufac.sgcm.dao;
+package br.ufac.sgcm.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import main.java.br.ufac.sgcm.model.Especialidade;
+import br.ufac.sgcm.model.Especialidade;
 
 public class EspecialidadeDao {
     Connection conexao;

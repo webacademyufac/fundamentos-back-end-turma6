@@ -1,4 +1,4 @@
-package main.java.br.ufac.sgcm.model;
+package br.ufac.sgcm.model;
 
 public class Unidade {
     private Long id;
