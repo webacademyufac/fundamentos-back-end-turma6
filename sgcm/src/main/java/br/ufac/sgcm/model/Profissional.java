@@ -65,4 +65,7 @@ public class Profissional {
         this.email = email;
     }
 
+    public String toString() {
+        return this.nome;
+    }
 }

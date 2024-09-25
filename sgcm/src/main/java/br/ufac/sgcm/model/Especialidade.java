@@ -21,6 +21,6 @@ public class Especialidade {
     }
 
     public String toString() {
-        return this.id + ": " + this.nome;
+        return this.nome;
     }
 }
