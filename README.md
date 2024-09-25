@@ -108,3 +108,9 @@ Usando Orientação a Objetos, modifique o programa para que, além do nome, cad
 
 Link de entrega: https://classroom.github.com/a/hazTxHsm
 Data: 25/09/2024 até 16h
+
+
+2. [INDIVIDUAL] Finalizar as classes `UnidadeDao` e `ProfissionalDao` de forma semelhante à classe `EspecialideDao` implementando todos os métodos da interface IDao. 
+
+Link de Entrega: https://classroom.github.com/a/mskPBsaE
+Data: 27/09/2024 até 16h
