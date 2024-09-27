@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 import br.ufac.sgcm.model.Unidade;
 
@@ -33,4 +34,35 @@ public class UnidadeDao implements IDao<Unidade> {
         }
         return registro;
     }
+
+    @Override
+    public int delete(Unidade objeto) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    @Override
+    public List<Unidade> get() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public List<Unidade> get(String termoBusca) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public int insert(Unidade objeto) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
+    @Override
+    public int update(Unidade objeto) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
+
 }

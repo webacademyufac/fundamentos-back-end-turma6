@@ -82,4 +82,10 @@ public class ProfissionalDao implements IDao<Profissional> {
         return 0;
     }
 
+    @Override
+    public Profissional get(Long id) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
 }
