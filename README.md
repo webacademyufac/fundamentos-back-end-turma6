@@ -86,31 +86,44 @@ A demonstração de uso das ferramentas e tecnologias abordadas na capacitação
 - [Diagrama de Classes](https://github.com/webacademyufac/sgcmdocs#diagrama-de-classes)
 - [Diagrama Entidade Relacionamento](https://github.com/webacademyufac/sgcmdocs#diagrama-entidade-relacionamento)
 
+## Atividades práticas
 
-1. [INDIVIDUAL] Crie uma classe chamada GerenciadorAlunos. Dentro dessa classe, declare um ArrayList<String> chamado alunos.
+ 1. [INDIVIDUAL] Crie uma classe chamada `GerenciadorAlunos`. Dentro dessa classe, declare um ArrayList<String> chamado alunos.
+ - Implemente um método chamado adicionarAluno(String nome) que adiciona um nome de aluno à lista. Ao adicionar, o método deve verificar se o aluno já existe na lista.
+ - Crie um método chamado removerAluno(String nome) que remove o aluno da lista pelo nome. Caso o nome não seja encontrado, exiba uma mensagem apropriada.
+ - Implemente um método chamado atualizarAluno(String nomeAntigo, String nomeNovo) que busca o nome de um aluno na lista e o atualiza. Se o nome não for encontrado, exiba uma mensagem de erro.
+ - Crie um método chamado listarAlunos() que imprime todos os alunos armazenados na lista em ordem alfabética.
+ - Implemente um método chamado buscarAluno(String nome) que verifica se o aluno existe na lista. O método deve retornar uma mensagem dizendo se o aluno foi encontrado ou não.
+ - Adicione um método chamado obterQuantidadeDeAlunos() que retorna o número total de alunos na lista.
+ - Crie um método chamado limparLista() que remove todos os alunos da lista.
+ - Usando Orientação a Objetos, modifique o programa para que, além do nome, cada aluno tenha um número de matrícula e os todos os métodos anteriores continuem funcionando.
 
-Implemente um método chamado adicionarAluno(String nome) que adiciona um nome de aluno à lista.
-Ao adicionar, o método deve verificar se o aluno já existe na lista.
-
-Crie um método chamado removerAluno(String nome) que remove o aluno da lista pelo nome. Caso o nome não seja encontrado, exiba uma mensagem apropriada.
-
-Implemente um método chamado atualizarAluno(String nomeAntigo, String nomeNovo) que busca o nome de um aluno na lista e o atualiza. Se o nome não for encontrado, exiba uma mensagem de erro.
-
-Crie um método chamado listarAlunos() que imprime todos os alunos armazenados na lista em ordem alfabética.
-
-Implemente um método chamado buscarAluno(String nome) que verifica se o aluno existe na lista. O método deve retornar uma mensagem dizendo se o aluno foi encontrado ou não.
-
-Adicione um método chamado obterQuantidadeDeAlunos() que retorna o número total de alunos na lista.
-
-Crie um método chamado limparLista() que remove todos os alunos da lista.
-
-Usando Orientação a Objetos, modifique o programa para que, além do nome, cada aluno tenha um número de matrícula e os todos os métodos anteriores continuem funcionando.
-
-Link de entrega: https://classroom.github.com/a/hazTxHsm
-Data: 25/09/2024 até 16h
+  - Link de entrega: https://classroom.github.com/a/hazTxHsm
+  - Data: 25/09/2024 até 16h
 
 
-2. [INDIVIDUAL] Finalizar as classes `UnidadeDao` e `ProfissionalDao` de forma semelhante à classe `EspecialideDao` implementando todos os métodos da interface IDao. 
+ 2. [INDIVIDUAL] Finalizar as classes `UnidadeDao` e `ProfissionalDao` de forma semelhante à classe `EspecialideDao` implementando todos os métodos da interface IDao. 
 
-Link de Entrega: https://classroom.github.com/a/mskPBsaE
-Data: 27/09/2024 até 16h
+  - Link de Entrega: https://classroom.github.com/a/mskPBsaE
+  - Data: 27/09/2024 até 16h
+
+ 3. [GRUPO] Construir páginas JSP (e todas as demais classes e métodos Java necessários) para cadastro de convênios, unidades, profissionais, pacientes e usuários, de forma semelhante à página de especialidades, e baseado na [documentação do SGCM](https://github.com/webacademyufac/sgcmdocs).
+
+ - Na classe que representa o paciente, os atributos `grupo sanguíneo` e `sexo` devem ser de um tipo abstrato construído com a utilização de [Enums](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html).
+ - Também deve ser usado [Enum](https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html) para o atributo `papel` do usuário, que deverá ter ao menos duas opções: `ADMIN` e `ATENDENTE`.
+ - Em relação ao cadastro de usuário, não é necessário implementar nenhum tipo de encriptação para senha. No entanto, no formulário deve ser utilizado o elemento HTML adequado ao tipo do campo.
+
+  - Página de Pacientes (Equipe 1 - Valmir, Wanderson, Ismael, Wesley)
+  - Página de Profissionais (Equipe 6 - Mateus, Rafael, John, Brenndo)
+  - Página de Atendimentos (Equipe 3 - João Vitor, Marcos Manuares, Isaque)
+  - Página de Convênios (Equipe 4 - Gabriel, Kleriston, Esther)
+  - Página de Unidades (Equipe 2 - Gleice, Douglas, Willian)
+  - Página de Usuários (Equipe 5 - Kelvin, Luis Henrique, Hayssa, Samuel Caldeira)
+  
+   - Link de Entrega: https://classroom.github.com/a/fOpBcp0H
+   - Data: 03/10/2024 até 16h
+
+ 4. [INDIVIDUAL] Criar uma página (login.jsp) com a funcionalidade de fazer o login do usuário (e todas as demais classes e métodos Java necessários) para redirecionar o mesmo para a página principal do SGCM (index.jsp) que contém apenas o cabeçalho, a navegação e o rodapé. 
+ 
+  - Link de Entrega: https://classroom.github.com/a/HujhzP_Z
+  - Data: 03/10/2024 até 16h
