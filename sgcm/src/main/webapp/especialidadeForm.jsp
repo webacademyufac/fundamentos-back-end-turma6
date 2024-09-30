@@ -1,4 +1,11 @@
 <%-- Inserir tags JSP --%>
+<%@page pageEncoding="UTF-8"%>
+<%@page import="java.util.List"%>
+<%@page import="java.util.Objects"%>
+<jsp:useBean id="controller" class="br.ufac.sgcm.controller.EspecialidadeController" scope="page"/>
+<jsp:useBean id="registro" class="br.ufac.sgcm.model.Especialidade" scope="page"/>
+
+<% registro = controller.processFormRequest(request, response);%>
 
 <!DOCTYPE html>
 <html>
@@ -44,6 +51,15 @@
     
         <main>
         <%-- Inserir o form --%>
+            <form method="post">
+                <input type="hidden" name="id" id="id" 
+                value="<%=Objects.toString(registro.getId(),"")%>"/>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" 
+                value="<%=Objects.toString(registro.getNome(),"")%>"/>
+                <input class="botao_verde" type="submit" name="submit" value="Salvar"/>
+                <input class="botao_vermelho" type="button" value="Cancelar">
+            </form>
         </main>
         <footer>
             <p>Telefone para contato: <span><a href="tel:+556832233030">+556832233030</a></span> | Email: <a

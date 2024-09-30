@@ -72,11 +72,12 @@ public class EspecialidadeController implements IController<Especialidade> {
         if (paramSubmit != null) { // Se o usuário está inserindo
             registro.setNome(paramNome);
             this.save(registro); // Chama o save da classe EspecialidadeController
-        }
-        try {
-            res.sendRedirect("especialidade.jsp");
-        } catch (IOException e) {
-            e.printStackTrace();
+
+            try {
+                res.sendRedirect("especialidade.jsp");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
         return registro;
     }

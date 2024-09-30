@@ -1,6 +1,5 @@
 <%-- Inserir tags JSP --%>
 <%@page pageEncoding="UTF-8" %>
-<%@page import="br.ufac.sgcm.controller.EspecialidadeController"%>
 <%@page import="java.util.List"%>
 <%@page import="br.ufac.sgcm.model.Especialidade"%>
 
