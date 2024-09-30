@@ -1,0 +1,158 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+div#logo_header {
+    background: linear-gradient(#003366, #006699);
+    color: white;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+div#logo_header p {
+    /* margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 0;*/
+    margin: 5px;
+    font-size: 1.6em;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #383838;
+}
+
+nav ul,
+nav ul a {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    margin: auto;
+}
+
+nav ul a:hover {
+    color: #383838;
+    background-color: #CCCCCC;
+}
+
+/* Form */
+
+form div.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: fit-content;
+    gap: 5px;
+    line-height: 2em;
+    padding: 10px;
+}
+
+.inativo {
+    display: none;
+}
+
+form label::after {
+    content: ":";
+}
+
+/* Tabela */
+
+table thead,
+table tfoot {
+    background-color: #003366;
+    color: white;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #4771a0;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #639d96;
+}
+
+table tr td,
+table thead th {
+    padding: 0.5em;
+}
+
+table tbody tr:hover {
+    background-color: #CCCCCC;
+}
+
+table tbody tr td:last-child {
+    white-space: nowrap;
+}
+
+/* Links e Botões */
+a.botao_verde,
+input[type="submit"] {
+    background-color: #2c832d;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 0.4em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.botao_verde:hover,
+input[type="submit"]:hover {
+    background-color: #174418;
+}
+
+a.botao_vermelho,
+input[type="button"] {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    padding: 0.4em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.botao_vermelho:hover,
+input[type="button"]:hover {
+    background-color: rgb(173, 0, 0);
+}
+
+#add {
+    margin: 10px;
+}
+
+/* Rodapé */
+
+footer,
+footer a {
+    background-color: #003366;
+    color: white;
+    padding: 5px;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 840px) {
+
+    nav ul,
+    nav ul a {
+        display: block;
+    }
+
+    div#logo_header p {
+        font-size: 1em;
+    }
+
+    form.form_profissional {
+        grid-template-columns: 1fr;
+    }
+
+}

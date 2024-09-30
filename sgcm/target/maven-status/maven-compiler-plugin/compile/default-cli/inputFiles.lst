@@ -1,0 +1,13 @@
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/controller/IController.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/PrimeiroServlet.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/dao/IDao.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/controller/EspecialidadeController.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/dao/ProfissionalDao.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/dao/UnidadeDao.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/dao/ConexaoDB.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/Teste.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/model/Profissional.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/model/Especialidade.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/controller/EspecialidadeServlet.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/dao/EspecialidadeDao.java
+/home/limeira/fundamentos-back-end-turma6/sgcm/src/main/java/br/ufac/sgcm/model/Unidade.java

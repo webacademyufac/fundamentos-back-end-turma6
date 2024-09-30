@@ -52,13 +52,15 @@
         <main>
         <%-- Inserir o form --%>
             <form method="post">
-                <input type="hidden" name="id" id="id" 
-                value="<%=Objects.toString(registro.getId(),"")%>"/>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" 
-                value="<%=Objects.toString(registro.getNome(),"")%>"/>
-                <input class="botao_verde" type="submit" name="submit" value="Salvar"/>
-                <input class="botao_vermelho" type="button" value="Cancelar">
+                <div class="grid">
+                    <input type="hidden" name="id" id="id" 
+                    value="<%=Objects.toString(registro.getId(),"")%>"/>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" 
+                    value="<%=Objects.toString(registro.getNome(),"")%>"/>
+                    <input class="botao_verde" type="submit" name="submit" value="Salvar"/>
+                    <input class="botao_vermelho" type="button" value="Cancelar">
+                </div>
             </form>
         </main>
         <footer>
