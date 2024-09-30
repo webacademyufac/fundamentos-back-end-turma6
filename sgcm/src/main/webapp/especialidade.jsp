@@ -1,4 +1,15 @@
 <%-- Inserir tags JSP --%>
+<%@page pageEncoding="UTF-8" %>
+<%@page import="br.ufac.sgcm.controller.EspecialidadeController"%>
+<%@page import="java.util.List"%>
+<%@page import="br.ufac.sgcm.model.Especialidade"%>
+
+<jsp:useBean id="controller" class="br.ufac.sgcm.controller.EspecialidadeController" scope="page"/>
+
+<%-- Podemos escrever código java puro entre tags html --%>
+<%-- controller dá acesso à classe EspecialidadeController --%>
+<% List<Especialidade> registros = controller.processListRequest(request, response); %>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -66,11 +77,21 @@
                 </thead>
                 <tbody>
                     <%-- Inserir corpo da tabela --%>
+                    <% for (Especialidade e : registros) {%>
+                        <tr>
+                            <td><%=e.getId()%></td>
+                            <td><%=e.getNome()%></td>
+                            <td>
+                                <a class="botao_verde" href="especialidadeForm.jsp?id=<%=e.getId()%>">Editar</a>
+                                <a class="botao_vermelho" href="especialidade.jsp?excluir=<%=e.getId()%>">Excluir</a>
+                            </td>
+                        </tr>
+                    <%}%>
                 </tbody>
                 <tfoot>
                     <tr>
                         <%-- Inserir total de registros --%>
-                        <%-- <td id="total" colspan="3">Total de registros: </td> --%>
+                        <td id="total" colspan="3">Total de registros: <%=registros.size()%> </td>
                     </tr>
                 </tfoot>
             </table>
